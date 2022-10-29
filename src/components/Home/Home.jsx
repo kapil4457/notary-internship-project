@@ -19,7 +19,7 @@ const Home = () => {
     };
     const body = {};
     const data = await axios.post(
-      "http://demo2211087.mockable.io/mock",
+      "https://demo2211087.mockable.io/mock",
       body,
       config
     );
